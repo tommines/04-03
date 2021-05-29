@@ -21,15 +21,13 @@ export default function SignIn() {
           status: "success",
           isClosable: true,
         })
-      } catch (error) {
-        if (error.response.data.errors) {
+      } catch (error) {    
           console.log(error)
           toast({
             title: "登录失败",
             status: "error",
             isClosable: true,
           })
-        }
       }
     },
   })
