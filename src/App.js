@@ -5,7 +5,6 @@ import From from './components/Form'
 export default function App() {
   return (
     <Box
-      bgColor="#f1f1f1"
       h="100%"
       display="flex"
       alignItems="center"
